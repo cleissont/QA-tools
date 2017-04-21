@@ -110,7 +110,7 @@ The user can insert their e-mail to receive a link to reset their password.
 
 Element		| Type			| Rule 			
 ------------|---------------|---------------
-(1) E-mail	| - Text		| - Required / - Validation: Should be like the example: name@domain.suffix
+(1) E-mail 	| - Text		| - Required / - Validation: Should be like the example: name@domain.suffix
 (2) Send    | - Button 		| - Should send an e-mail with the validation link to the user. / - Should be disable while the required field had data
 (3) Back	| - Button 		| - Should go to 1.2 Login
 
