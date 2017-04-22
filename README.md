@@ -1,2 +1,2 @@
 # QA-tools
-Application to automatize some tasks of software quality assurance. 
+Application for automation and management of software quality processes.
