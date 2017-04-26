@@ -21,7 +21,7 @@ Element			| Type			| Rule
 After the user informs at least the required fields, the submit button will be enabled and they are able to proceed to the next step.
 
 
-### 1.1.2 Sign Up/Login Information
+### 1.1.2 Login Information
 The second step of the sign up is a formulary where the user needs to insert their informations to logs in the application.
 You can check the rules on the table bellow.
 
@@ -47,7 +47,7 @@ Element						| Type			| Rule
 (2) Ok!						| - Button 		| - Should close the pop-up
 
 
-### 1.1.3 Sign Up/Confirmation Page
+### 1.1.3 Confirmation Page
 The last step is just a page to inform that the account was created and the user needs to confirm the registration click on the hyperlink sent to their e-mail. You can check some elements of this page bellow.
 
 
@@ -137,7 +137,6 @@ Element									| Type			| Rule
 If the user requests a link to the same account twice, just the newest link should work. When they click on the link to reset they password, they should go to 1.3.1 Forgot Password.
 
 
-## 1.3 Forgot Password
 ### 1.3.1 New Password
 After click on the link sent to their e-mail, the user can access this page to change their password. 
 You can see the rules on the table bellow. 
@@ -170,6 +169,7 @@ Element 				| Type 			| Rule
 
 # 2 Home 
 
+The Home page is the main page of the application, where the user can navegate to funcionalitys of the project.
 
 
 
@@ -186,7 +186,7 @@ Element 				| Type 			| Rule
 The user can click outside the pop-up to close it.
 
 
-### 2.1.1 Settings/My Profile
+### 2.1.1 My Profile
 In this page, the user can see their data and edit it. Just one field is not editable "E-mail".
 You can see the rules bellow:
 
@@ -221,7 +221,7 @@ Element 				| Type 			| Rule
 (8) Click on it will save the alteration. If the user didn't an alteration the button should appear gray and nothing can happen if they click on it.
 
 
-### 2.1.2 My Profile/Change Password
+#### 2.1.1.1 Change Password
 In this page, the user can change their password to a new one.
 You can see the rules bellow:
 
@@ -242,6 +242,36 @@ Element 				| Type 			| Rule
 ------------------------|---------------|---------------
 (1) Password was changed| - Text 		| - None
 (2) Ok!					| - Button		| - Close the pop-up
+
+
+## 2.2 Projects
+
+On this tab, the user has access to all projects that are linked to they account on a list.
+The list of projects can be filter by some categories as:
+- **All**
+	- This filter should show all projects of the user, showing firstly the projects recently updated.
+- **Check List in progress**
+	- This filter should show only the projects that has a check list with states in progress, showing firstly the projects recently updated.
+- 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
