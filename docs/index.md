@@ -246,6 +246,8 @@ Element 				| Type 			| Rule
 
 ## 2.2 Projects
 
+### 2.2.1 Projects List
+
 On this tab, the user has access to all projects that are linked to they account on a list and they can create a new project.
 The content this page must have the following elements:
 
