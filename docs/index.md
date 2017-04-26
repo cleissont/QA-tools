@@ -246,13 +246,25 @@ Element 				| Type 			| Rule
 
 ## 2.2 Projects
 
-On this tab, the user has access to all projects that are linked to they account on a list.
-The list of projects can be filter by some categories as:
-- **All**
-	- This filter should show all projects of the user, showing firstly the projects recently updated.
-- **Check List in progress**
-	- This filter should show only the projects that has a check list with states in progress, showing firstly the projects recently updated.
-- 
+On this tab, the user has access to all projects that are linked to they account on a list and they can create a new project.
+The content this page must have the following elements:
+
+Element 		| Type						
+------------------------|-----------------------
+(1) Projects list	| - Table 		
+(2) New Project		| - Button		
+(3) Filter		| - Text box 		
+
+
+- **(1) Projects list**
+	- This list must show all projects that are linked to user account.
+	- The list must show firstly the projects recently updated.
+	- When clicking on name of some project of the list the user must be take to the project main page.
+	- Must show on max 10 projects. If the user has more than 10 projects, must appear a hiperlink to the next page of projects.
+- **(2) New Project**
+	- This button must take the user to new project form.
+- **(3) Filter**
+	- This must filter the projects by name.
 
 
 
