@@ -1,0 +1,12 @@
+/vendor
+/node_modules
+Homestead.yaml
+Homestead.json
+.env
+/.idea
+Envoy.blade.php
+/public/pdf/*
+!.gitignore
+.vagrant
+/nbproject/
+.phpcomplete_extended/
